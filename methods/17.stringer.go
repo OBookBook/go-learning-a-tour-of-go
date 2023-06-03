@@ -22,5 +22,5 @@ func (p Person) String() string {
 func main() {
 	a := Person{"Arthur Dent", 42}
 	z := Person{"Zaphod Beeblebrox", 9001}
-	fmt.Println(a, z)
+	fmt.Println(a, z) // Arthur Dent (42 years) Zaphod Beeblebrox (9001 years)
 }
